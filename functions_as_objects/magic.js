@@ -5,4 +5,4 @@ const magic = (...args) => {
   return inner;
 };
 
-console.log(magic(1, 2)(3, 4, 5)(6)(7, 10) == 38);
+export default magic;
